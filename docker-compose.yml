@@ -5,7 +5,6 @@ services:
             environment:
             # Dont use ('') or (" ") for fill above sections >
             # This is not V2 full release 😅 so some features are not still available
-
             SESSION: $SESSION
             BOTNAME: Enter Any Name To Bot 😿
             WORK_TYPE: private
