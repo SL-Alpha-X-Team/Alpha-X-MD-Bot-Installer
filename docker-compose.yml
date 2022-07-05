@@ -1,0 +1,48 @@
+version: 18.1
+services:
+    worker:
+        build: .
+            environment:
+            # Dont use ('') or (" ") for fill above sections >
+            # This is not V2 full release 😅 so some features are not still available
+
+            SESSION: $SESSION
+            BOTNAME: Enter Any Name To Bot 😿
+            WORK_TYPE: private
+            LANGUAGE: EN
+            HANDLERS: ^[.!;/#]
+            USER_NAME: Free_User
+            COMMAND_LIST_KEY: alphaMD
+            ALIVE_MSG_KEY: alive
+            SUDO: false
+            BLOCK_CHAT: false
+            BLOCK_USERS: false
+            SEND_READ: false
+            NO_ONLINE: true
+            NO_LOG: false
+            BGM: off
+            AI_LILY: false
+            ANTI_LINK: false
+            CUSTOM_BLOCK_LINKS: []
+            AUTO_BIO: false
+            BADWORDS_KICK: false
+            ALIVE_MSG: default
+            AFK_MSG: default
+            KICKME_MSG: default
+            ADD_MSG: default
+            BAN_MSG: default
+            PROMOTE_MSG: default
+            DEMOTE_MSG: default
+            MUTE_MSG: default
+            UNMUTE_MSG: default
+            BLOCK_MSG: default
+            UNBLOCK_MSG: default
+            CAPTION: ﹝⚕️﹞ ᴍᴀᴅᴇ ʙʏ ᴀʟᴘʜᴀ-x-ᴍᴅ-ʙᴏᴛ ﹝⚕️﹞
+            BIONAME: ៚ ᴀᴜᴛᴏ ʙɪᴏ ꜱʏꜱᴛᴇᴍ 🤹🏻‍♂️
+            COMMAND_EMOJI: ﹝⚗️﹞
+            DESC_EMOJI: ﹝🪪﹞
+            WARN_EMOJI: ﹝⚠️﹞
+            ALIVE_PIC: https://telegra.ph/file/dc8e4edc7230cedbdec2c.jpg
+            WLCM_GIF: https://telegra.ph/file/338cb7f0b2b01e463efcd.mp4
+            GBYE_GIF: https://telegra.ph/file/88f85fe6850015ae49067.mp4
+            DEBUG: false
