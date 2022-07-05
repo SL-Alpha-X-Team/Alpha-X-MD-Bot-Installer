@@ -22,7 +22,7 @@ services:
       BGM: off
       AI_LILY: false
       ANTI_LINK: false
-      CUSTOM_BLOCK_LINKS: []
+      CUSTOM_BLOCK_LINKS: false
       AUTO_BIO: false
       BADWORDS_KICK: false
       ALIVE_MSG: default
