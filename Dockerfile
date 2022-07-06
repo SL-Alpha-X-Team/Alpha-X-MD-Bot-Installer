@@ -9,8 +9,9 @@ RUN apt-get update && \
   rm -rf /var/lib/apt/lists/*
 RUN git clone https://github.com/SL-Alpha-X-Team/Alpha-X-MD-Bot /root/AlphaXmd
 WORKDIR /root/AlphaXmd/
+# RUN yarn install --no-audit
+COPY package.json /root/AlphaXmd
+RUN npm install
 RUN npm install supervisor -g
-RUN yarn install --no-audit
-RUN npm install -g
 
 CMD ["npm", "start"]
