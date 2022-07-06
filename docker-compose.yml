@@ -44,4 +44,4 @@ services:
       ALIVE_PIC: https://telegra.ph/file/dc8e4edc7230cedbdec2c.jpg
       WLCM_GIF: https://telegra.ph/file/338cb7f0b2b01e463efcd.mp4
       GBYE_GIF: https://telegra.ph/file/88f85fe6850015ae49067.mp4
-      DEBUG: false
+      DEBUG: debug
