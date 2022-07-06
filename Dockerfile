@@ -11,3 +11,5 @@ RUN yarn install --no-audit
 RUN npm install supervisor -g
 
 CMD ["npm", "start"]
+
+# default path: /root/AlphaXmd/
