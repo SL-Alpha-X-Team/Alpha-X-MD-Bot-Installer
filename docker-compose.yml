@@ -9,7 +9,7 @@ services:
       BOTNAME: Enter Any Name To Bot 😿
       WORK_TYPE: private
       LANGUAGE: EN
-      HANDLERS: ^[.]
+      HANDLERS: ^[.?/#+-]
       USER_NAME: Free_User
       COMMAND_LIST_KEY: alphaMD
       ALIVE_MSG_KEY: alive
