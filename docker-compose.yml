@@ -6,7 +6,7 @@ services:
       # Dont use ('') or (" ") for fill above sections >
       # This is not V2 full release 😅 so some features are not still available
       SESSION: $SESSION
-      BOTNAME: Enter Any Name To Bot 😿
+      BOT_NAME: Enter Any Name To Bot 😿
       WORK_TYPE: private
       LANGUAGE: EN
       HANDLERS: ^[.?/#+-]
@@ -38,7 +38,7 @@ services:
       BLOCK_MSG: default
       UNBLOCK_MSG: default
       CAPTION: ﹝⚕️﹞ ᴍᴀᴅᴇ ʙʏ ᴀʟᴘʜᴀ-x-ᴍᴅ-ʙᴏᴛ ﹝⚕️﹞
-      BIONAME: ៚ ᴀᴜᴛᴏ ʙɪᴏ ꜱʏꜱᴛᴇᴍ 🤹🏻‍♂️
+      BIO_NAME: ៚ ᴀᴜᴛᴏ ʙɪᴏ ꜱʏꜱᴛᴇᴍ 🤹🏻‍♂️
       COMMAND_EMOJI: ﹝⚗️﹞
       DESC_EMOJI: ﹝🪪﹞
       WARN_EMOJI: ﹝⚠️﹞
