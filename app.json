@@ -29,19 +29,24 @@
             "description": "Type here your QR code. Get it using >> replit.com/@AlphaXteam/Alpha-X-MD-Qr",
             "required": true
         },
-        "SUDO": {
-            "description": "Sudo mode is gives other controler for your bot , Leave it blank if you'r not using it , Number must be Like 94XXXXXXX,0",
-            "required": false
+        "WORK_TYPE": {
+            "description": "Alpha-X Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
+            "required": true,
+            "value": "private"
         },
         "LANGUAGE": {
             "description": "Bot language - English => EN , Sinhala=> SI , Kannada => KN , Turkish => TR , Malayalam => ML , Russian => RU , Azerbaijian => AZ , Hindi => HI [ More Languages coming soon.. ]",
             "required": true,
             "value": "EN"
         },
-        "CAPTION": {
-            "description": "Customizable CAPTION Message! Type a caption for bot medias.",
-            "required": false,
-            "value": "﹝⚕️﹞ ᴍᴀᴅᴇ ʙʏ ᴀʟᴘʜᴀ-x-ᴍᴅ-ʙᴏᴛ ﹝⚕️﹞"
+        "HANDLERS": {
+            "description": "Give Handlers For your commands",
+            "required": true,
+            "value": "^[.,/#*?]"
+        },
+        "USER_NAME": {
+            "description": "Enter your name here.",
+            "required": true
         },
         "COMMAND_LIST_KEY": {
             "description": "Customizable COMMAND LIST KEY type a key to get all command list >> EX: alpha",
@@ -53,39 +58,9 @@
             "required": false,
             "value": "alive"
         },
-        "BIO_NAME": {
-            "description": "Customizable Auto Bio Name Message!, type a name ot somthing to show with auto bio.",
-            "required": false,
-            "value": "៚ ᴀᴜᴛᴏ ʙɪᴏ ꜱʏꜱᴛᴇᴍ 🤹🏻‍♂️"
-        },
-        "USER_NAME": {
-            "description": "Enter your name here.",
-            "required": true
-        },
-        "BOT_NAME": {
-            "description": "Customizable BOT NAME! Type a Name for your bot.",
-            "required": false,
-            "value": " *🔥 Ａｌｐｈａ-Ｘ-WA-Bot 🔥* "
-        },
-        "AUTO_BIO": {
-            "description": "Set true for auto date to your bio, time in biography.",
-            "required": true,
-            "value": "false"
-        },
-        "HANDLERS": {
-            "description": "Give Handlers For your commands",
-            "required": true,
-            "value": "^[.,/#*?]"
-        },
-        "NO_LOG": {
-            "description": "Set true if you don't want to see error log.",
-            "required": true,
-            "value": "false"
-        },
-        "SEND_READ": {
-            "description": "Write true if you want to throw seen.",
-            "required": true,
-            "value": "true"
+        "SUDO": {
+            "description": "Sudo mode is gives other controler for your bot , Leave it blank if you'r not using it , Number must be Like 94XXXXXXX,0",
+            "required": false
         },
         "SEND_REACT": {
             "description": "Write true if you want to auto react to commands.",
@@ -102,19 +77,44 @@
             "required": false,
             "value": "false"
         },
-        "KICKME_MSG": {
-            "description": "Customizable KICKME_MSG! Use => 'default', to change back.",
+        "SEND_READ": {
+            "description": "Write true if you want to throw seen.",
+            "required": true,
+            "value": "true"
+        },
+        "NO_ONLINE": {
+            "description": "Type true if you don't want to appear online.",
             "required": false,
-            "value": "default"
+            "value": "true"
         },
-        "WORK_TYPE": {
-            "description": "Alpha-X Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
-            "required": true,
-            "value": "private"
+        "BGM": {
+            "description": "",
+            "required": false,
+            "value": "off"
         },
-        "DEBUG": {
-            "description": "Debug.",
+        "AI_LILY": {
+            "description": "",
+            "required": false,
+            "value": "false"
+        },
+        "ANTI_LINK": {
+            "description": "",
+            "required": false,
+            "value": "false"
+        },
+        "CUSTOM_BLOCK_LINKS": {
+            "description": "",
+            "required": false,
+            "value": "false"
+        },
+        "AUTO_BIO": {
+            "description": "Set true for auto date to your bio, time in biography.",
             "required": true,
+            "value": "false"
+        },
+        "BADWORDS_KICK": {
+            "description": "",
+            "required": false,
             "value": "false"
         },
         "ALIVE_MSG": {
@@ -127,10 +127,100 @@
             "required": false,
             "value": "default"
         },
-        "NO_ONLINE": {
-            "description": "Type true if you don't want to appear online.",
+        "KICKME_MSG": {
+            "description": "Customizable KICKME_MSG! Use => 'default', to change back.",
             "required": false,
-            "value": "true"
+            "value": "default"
+        },
+        "ADD_MSG": {
+            "description": "Customizable ADD_MSG Use => 'default', to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "PROMOTE_MSG": {
+            "description": "Customizable PROMOTE_MSG Use => 'default', to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "DEMOTE_MSG": {
+            "description": "Customizable DEMOTE_MSG Use => 'default', to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "BAN_MSG": {
+            "description": "Customizable ADD_MSG Use => 'default', to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "MUTE_MSG": {
+            "description": "Customizable MUTE_MSG Use => 'default', to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "UNMUTE_MSG": {
+            "description": "Customizable UNMUTE_MSG Use => 'default', to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "BLOCK_MSG": {
+            "description": "Customizable BLOCK_MSG Use => 'default', to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "UNBLOCK_MSG": {
+            "description": "Customizable UNBLOCK_MSG Use => 'default', to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "CAPTION": {
+            "description": "Customizable CAPTION Message! Type a caption for bot medias.",
+            "required": false,
+            "value": "﹝⚕️﹞ ᴍᴀᴅᴇ ʙʏ ᴀʟᴘʜᴀ-x-ᴍᴅ-ʙᴏᴛ ﹝⚕️﹞"
+        },
+        "BIO_NAME": {
+            "description": "Customizable Auto Bio Name Message!, type a name ot somthing to show with auto bio.",
+            "required": false,
+            "value": "៚ ᴀᴜᴛᴏ ʙɪᴏ ꜱʏꜱᴛᴇᴍ 🤹🏻‍♂️"
+        },
+        "BOT_NAME": {
+            "description": "Customizable BOT NAME! Type a Name for your bot.",
+            "required": false,
+            "value": " *🔥 Ａｌｐｈａ-Ｘ-WA-Bot 🔥* "
+        },
+        "COMMAND_EMOJI": {
+            "description": "Customizable COMMAND_EMOJI!, Type a caption for bot medias.",
+            "required": false,
+            "value": "﹝⚙️﹞"
+        },
+        "DESC_EMOJI": {
+            "description": "Customizable WARN_EMOJI!, type a name ot somthing to show with auto bio.",
+            "required": false,
+            "value": "﹝🪪﹞"
+        },
+        "WARN_EMOJI": {
+            "description": "Customizable WARN_EMOJI!, Type a Name for your bot.",
+            "required": false,
+            "value": "﹝⚠️﹞"
+        },
+        "ALIVE_PIC": {
+            "description": "Customizable ALVE_PIC!, Type a Name for your bot.",
+            "required": false,
+            "value": "https://telegra.ph/file/dc8e4edc7230cedbdec2c.jpg"
+        },
+        "WLCM_GIF": {
+            "description": "Customizable WLCM_GIF!, Type a Name for your bot.",
+            "required": false,
+            "value": "https://telegra.ph/file/338cb7f0b2b01e463efcd.mp4"
+        },
+        "GBYE_GIF": {
+            "description": "Customizable GBYE_GIF!, Type a Name for your bot.",
+            "required": false,
+            "value": "https://telegra.ph/file/88f85fe6850015ae49067.mp4"
+        },
+        "DEBUG": {
+            "description": "Debug.",
+            "required": true,
+            "value": "debug"
         },
         "HEROKU": {
             "description": "If it is running in Heroku, type true.",
