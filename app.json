@@ -60,7 +60,8 @@
         },
         "SUDO": {
             "description": "Sudo mode is gives other controler for your bot , Leave it blank if you'r not using it , Number must be Like 94XXXXXXX,0",
-            "required": false
+            "required": true,
+            "value": "false"
         },
         "SEND_REACT": {
             "description": "Write true if you want to auto react to commands.",
