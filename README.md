@@ -1,6 +1,15 @@
-[fork](https://github.com/SL-Alpha-X-Team/Alpha-X-MD-Bot-Installer/fork)
+First scan [QRcode](http://replit.com/@AlphaXteam/Alpha-X-MD-Bot-QR)
+ 
+Second [fork](https://github.com/Alpha-gaming-X/Alpha-X-MD-Bot-Installer/fork)
 
-Deploy to Heroku👇
+Last option [Deploy to heroku](https://dashboard.heroku.com/new?template=https://github.com/SL-Alpha-X-Team/Alpha-X-MD-Bot-Installer)
 
-[DEPOLY](https://dashboard.heroku.com/new?template=https://github.com/SL-Alpha-X-Team/Alpha-X-MD-Bot-Installer
-)
+
+
+
+
+
+
+
+
+
