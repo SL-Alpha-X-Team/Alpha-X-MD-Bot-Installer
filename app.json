@@ -83,6 +83,11 @@
             "required": true,
             "value": "true"
         },
+        "PM_BLOCK": {
+            "description": "Write true if you want to block inbox commands ( not for you)",
+            "required": true,
+            "value": "false"
+        },
         "NO_ONLINE": {
             "description": "Type true if you don't want to appear online.",
             "required": false,
