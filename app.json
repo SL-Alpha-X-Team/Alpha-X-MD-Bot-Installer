@@ -250,9 +250,6 @@
             "size": "free"
         }
     },
-    "addons": [{
-      "plan": "heroku-postgresql"
-    }],
     "buildpacks": [
         {
             "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
