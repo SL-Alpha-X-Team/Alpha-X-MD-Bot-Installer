@@ -6,6 +6,7 @@ services:
       # Dont use ('') or (" ") for fill above sections >
       # This is not V2 full release 😅 so some features are not still available
       SESSION: $SESSION
+      DATABASE_URL: $DATABASE_URL
       BOT_NAME: Enter Any Name To Bot 😿
       WORK_TYPE: private
       LANGUAGE: EN
@@ -47,3 +48,4 @@ services:
       WLCM_GIF: https://telegra.ph/file/338cb7f0b2b01e463efcd.mp4
       GBYE_GIF: https://telegra.ph/file/88f85fe6850015ae49067.mp4
       DEBUG: debug
+      OKTETO: true
