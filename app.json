@@ -29,6 +29,10 @@
             "description": "Type here your QR code. Get it using >> replit.com/@AlphaXteam/Alpha-X-MD-Qr",
             "required": true
         },
+        "DATABASE_URL": {
+            "description": "",
+            "required": true
+        },
         "WORK_TYPE": {
             "description": "Alpha-X Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
             "required": true,
@@ -244,9 +248,6 @@
             "value": ""
         }
     },
-    "addons": [{
-      "plan": "heroku-postgresql"
-    }],
     "formation": {
         "worker": {
             "quantity": 1,
