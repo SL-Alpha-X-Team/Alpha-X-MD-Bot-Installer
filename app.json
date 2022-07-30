@@ -30,7 +30,7 @@
             "required": true
         },
         "DATABASE_URL": {
-            "description": "",
+            "description": "Type here your SQL db url. Dont know how to get >> watch this video. (youtu.be/zlPCUzocwHw)",
             "required": true
         },
         "WORK_TYPE": {
