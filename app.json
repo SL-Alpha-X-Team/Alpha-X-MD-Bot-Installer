@@ -183,12 +183,12 @@
             "value": "default"
         },
         "CAPTION": {
-            "description": "Customizable CAPTION Message! Type a caption for bot medias.",
+            "description": "Customizable CAPTION Message! Type a caption for bot.",
             "required": false,
             "value": "﹝⚕️﹞ ᴍᴀᴅᴇ ʙʏ ᴀʟᴘʜᴀ-x-ᴍᴅ-ʙᴏᴛ ﹝⚕️﹞"
         },
         "BIO_NAME": {
-            "description": "Customizable Auto Bio Name Message!, type a name ot somthing to show with auto bio.",
+            "description": "Customizable Auto Bio Name Message!, type a name or somthing to show with auto bio.",
             "required": false,
             "value": "៚ ᴀᴜᴛᴏ ʙɪᴏ ꜱʏꜱᴛᴇᴍ 🤹🏻‍♂️"
         },
@@ -198,37 +198,37 @@
             "value": " *🔥 Ａｌｐｈａ-Ｘ-WA-Bot 🔥* "
         },
         "COMMAND_EMOJI": {
-            "description": "Customizable COMMAND_EMOJI!, Type a caption for bot medias.",
+            "description": "Customizable COMMAND_EMOJI to show in command list.",
             "required": false,
             "value": "﹝⚙️﹞"
         },
         "DESC_EMOJI": {
-            "description": "Customizable WARN_EMOJI!, type a name ot somthing to show with auto bio.",
+            "description": "Customizable DESC_EMOJI to show in command list.",
             "required": false,
             "value": "﹝🪪﹞"
         },
         "WARN_EMOJI": {
-            "description": "Customizable WARN_EMOJI!, Type a Name for your bot.",
+            "description": "Customizable WARN_EMOJI to show in command list.",
             "required": false,
             "value": "﹝⚠️﹞"
         },
         "ALIVE_PIC": {
-            "description": "Customizable ALVE_PIC!, Type a Name for your bot.",
+            "description": "Customizable ALVE_PIC!, Type a image link here.",
             "required": false,
             "value": "https://telegra.ph/file/dc8e4edc7230cedbdec2c.jpg"
         },
         "WLCM_GIF": {
-            "description": "Customizable WLCM_GIF!, Type a Name for your bot.",
+            "description": "Customizable WLCM_GIF!, Type a video link here.",
             "required": false,
             "value": "https://telegra.ph/file/338cb7f0b2b01e463efcd.mp4"
         },
         "GBYE_GIF": {
-            "description": "Customizable GBYE_GIF!, Type a Name for your bot.",
+            "description": "Customizable GBYE_GIF!, Type a video link here.",
             "required": false,
             "value": "https://telegra.ph/file/88f85fe6850015ae49067.mp4"
         },
         "DEBUG": {
-            "description": "Debug.",
+            "description": "Debug level.",
             "required": true,
             "value": "debug"
         },
